@@ -45,7 +45,7 @@ export default function Hero() {
           {/* BUTTONS */}
           <div className="flex gap-4 mt-1">
             <a
-              href="/resume.pdf"
+              href="/CV.pdf"
               download
               className="px-5 py-3 rounded-lg
                          bg-[#2EC4F1] text-[#071A2C]
