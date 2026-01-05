@@ -1,24 +1,13 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# React + Vite
+# Sanchita Sinha - Full Stack Developer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Portfolio
+[Live Portfolio](https://portfolio-design-rbz6-dayrz234g-sanchita-615555s-projects.vercel.app)
 
-Currently, two official plugins are available:
+## Resume
+[Download Resume](public/resume.pdf)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Run
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Portfolio
->>>>>>> ae5f862c566bac383ef5b743fe9ac1551dfd5185
-=======
-# Portfolio_Design
->>>>>>> 6b632c6b90ff66fa479954cdd982f7b30e28a8a9
+1) npm i
+2) cd demo
+3) npm run dev

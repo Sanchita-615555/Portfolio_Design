@@ -22,7 +22,7 @@ const projects = [
   {
     title: "GRAFIQORA Project",
     description: "A React-based web project designed to showcase services, features, and modern UI design with responsive layout.",
-    tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    tech: ["React.js"],
     github: "https://github.com/Sanchita-615555/Grafiqora"
   }
 ];
