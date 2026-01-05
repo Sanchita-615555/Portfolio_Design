@@ -1,7 +1,7 @@
 # Sanchita Sinha - Full Stack Developer
 
 ## Live Portfolio
-[Live Portfolio](https://portfolio-design-rbz6-dayrz234g-sanchita-615555s-projects.vercel.app)
+[Live Portfolio](https://portfolio-design-j2rh.vercel.app/)
 
 ## Resume
 [Download Resume](public/resume.pdf)
