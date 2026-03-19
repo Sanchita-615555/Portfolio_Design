@@ -2,36 +2,39 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="pt-24 min-h-screen flex items-center
-                 bg-gradient-to-r from-[#071A2C] to-[#0B3C6F]"
+      className="min-h-screen pt-20 flex items-center justify-center
+                 bg-gradient-to-r from-[#071A2C] to-[#0B3C6F] px-4"
     >
-      <div className="max-w-7xl mx-auto px-6 w-full">
-        <div className="flex flex-col items-center text-center gap-8">
+      <div className="max-w-7xl mx-auto w-full">
+        
+        <div className="flex flex-col items-center text-center gap-10">
 
           {/* TEXT */}
           <div className="max-w-2xl">
-            <h1 className="text-4xl lg:text-5xl font-bold text-[#EAF2F8] mb-3">
-           Hi, I’m <span className="text-[#2EC4F1]">Sanchita Sinha</span>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3">
+              Hi, I’m <span className="text-[#2EC4F1]">Sanchita Sinha</span>
             </h1>
 
-            <p className="text-[#2EC4F1] text-lg font-medium mb-4">
-               Full Stack Developer
+            <p className="text-[#2EC4F1] text-base sm:text-lg font-medium mb-4">
+              Full Stack Developer
             </p>
 
-<p className="text-[#9FB3C8] leading-relaxed">
-  <span className="text-[#EAF2F8] font-semibold">3rd-year BCA student</span> with
-  strong knowledge of the <span className="text-[#2EC4F1] font-medium">MERN stack</span>,
-  passionate about building <span className="text-[#EAF2F8]">clean</span>,
-  <span className="text-[#EAF2F8]"> scalable</span>, and
-  <span className="text-[#EAF2F8]"> modern</span> web applications.
-</p>
-
+            <p className="text-[#9FB3C8] leading-relaxed text-sm sm:text-base">
+              <span className="text-[#EAF2F8] font-semibold">
+                3rd-year BCA student
+              </span>{" "}
+              with strong knowledge of{" "}
+              <span className="text-[#2EC4F1] font-medium">
+                MERN Stack
+              </span>
+              , passionate about building clean, scalable, and modern web apps.
+            </p>
           </div>
 
           {/* PHOTO */}
           <div className="flex justify-center">
             <div
-              className="w-64 h-80 rounded-3xl p-1
+              className="w-52 sm:w-64 h-72 sm:h-80 rounded-3xl p-1
                          bg-gradient-to-b from-[#2EC4F1] to-transparent shadow-xl"
             >
               <img
@@ -43,13 +46,13 @@ export default function Hero() {
           </div>
 
           {/* BUTTONS */}
-          <div className="flex gap-4 mt-1">
+          <div className="flex flex-col sm:flex-row gap-4 mt-2">
             <a
               href="/CV.pdf"
               download
               className="px-5 py-3 rounded-lg
                          bg-[#2EC4F1] text-[#071A2C]
-                         font-semibold hover:opacity-80 transition"
+                         font-semibold hover:opacity-80 transition text-center"
             >
               Download Resume
             </a>
@@ -60,7 +63,7 @@ export default function Hero() {
                          border border-[#2EC4F1]
                          text-[#2EC4F1]
                          hover:bg-[#2EC4F1] hover:text-[#071A2C]
-                         transition"
+                         transition text-center"
             >
               View Projects
             </a>
