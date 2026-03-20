@@ -39,7 +39,7 @@ export default function Hero() {
                          bg-gradient-to-b from-[#2EC4F1] to-transparent shadow-xl"
             >
               <img
-                src="/photo.jpg"
+                src="/photo.jpeg"
                 alt="Sanchita Sinha"
                 className="w-full h-full object-cover rounded-2xl"
               />
