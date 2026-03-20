@@ -9,29 +9,44 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="py-20 bg-gradient-to-r from-[#071A2C] to-[#0B3C6F] text-[#EAF2F8] px-6">
-      <div className="max-w-4xl mx-auto text-center">
-        
+    <section
+      id="about"
+      className="w-full py-20 px-4
+                 bg-gradient-to-r from-[#071A2C] to-[#0B3C6F]
+                 text-[#EAF2F8]"
+    >
+      {/* MAIN CONTAINER */}
+      <div className="w-full max-w-[1300px] mx-auto px-6">
+
         {/* Heading */}
-        <h2 className="text-3xl font-bold mb-2">About Me</h2>
+        <h2 className="text-3xl font-bold mb-2 text-center">About Me</h2>
         <div className="h-1 w-40 bg-[#2EC4F1] mx-auto rounded mb-6"></div>
 
         {/* About Text */}
-       <p className="text-[#9FB3C8] text-lg md:text-base lg:text-lg leading-relaxed 
-              max-w-3xl mx-auto mt-4 mb-10 text-justify">
-  I am a <span className="font-semibold text-[#EAF2F8]">3rd-year BCA student </span> 
-  with knowledge of the <span className="font-semibold text-[#2EC4F1]">MERN Stack</span>. 
-  I am passionate about building clean and scalable web applications while continuously 
-  learning and improving my skills in modern web development.
-</p>
+        <p
+          className="text-[#9FB3C8] text-base sm:text-lg lg:text-lg leading-relaxed
+                     max-w-4xl mx-auto mt-4 mb-12 text-justify"
+        >
+          I am a{" "}
+          <span className="font-semibold text-[#EAF2F8]">
+            3rd-year BCA student
+          </span>{" "}
+          with knowledge of the{" "}
+          <span className="font-semibold text-[#2EC4F1]">
+            MERN Stack
+          </span>
+          . I am passionate about building clean and scalable web applications while continuously
+          learning and improving my skills in modern web development.
+        </p>
 
         {/* Skills Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {skills.map((skill) => (
             <div
               key={skill.name}
               className="bg-[#102A43] rounded-xl p-6 flex flex-col items-center
-                         justify-center hover:shadow-[0_0_20px_#2EC4F1] transition"
+                         justify-center hover:shadow-[0_0_20px_#2EC4F1]
+                         transition duration-300"
             >
               <div className="mb-2">{skill.icon}</div>
               <p className="text-white font-medium">{skill.name}</p>
