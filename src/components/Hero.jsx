@@ -1,12 +1,11 @@
 export default function Hero() {
   return (
-    <section
-      id="hero"
-      className="min-h-screen pt-20 flex items-center justify-center
-                 bg-gradient-to-r from-[#071A2C] to-[#0B3C6F] px-4"
-    >
-      <div className="max-w-7xl mx-auto w-full">
-        
+<section
+  id="hero"
+  className="min-h-screen pt-20 flex items-center justify-center
+             bg-gradient-to-r from-[#071A2C] to-[#0B3C6F] px-4"
+>
+  <div className="max-w-7xl mx-auto w-full px-6">
         <div className="flex flex-col items-center text-center gap-10">
 
           {/* TEXT */}
