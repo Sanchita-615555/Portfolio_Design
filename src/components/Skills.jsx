@@ -15,6 +15,21 @@ const skills = [
   }
 ];
 
+const extraSkills = [
+  {
+    category: "Soft Skills",
+    items: ["Teamwork", "Time Management", "Leadership", "Effective Communication"]
+  },
+  {
+    category: "Creative Skills",
+    items: ["Drawing"]
+  },
+  {
+    category: "Languages",
+    items: ["English", "Bengali"]
+  }
+];
+
 const TechnicalSkills = () => {
   return (
     <section
@@ -24,18 +39,20 @@ const TechnicalSkills = () => {
                  text-[#EAF2F8]"
       style={{ scrollMarginTop: "70px" }}
     >
-      {/* MAIN CONTAINER */}
       <div className="w-full max-w-[1300px] mx-auto px-6">
 
         {/* Heading */}
         <h2 className="text-3xl font-bold mb-2 text-center">
-          Technical Skills
+          Skills
         </h2>
         <div className="h-1 w-40 bg-[#2EC4F1] mx-auto rounded mb-10"></div>
 
-        {/* GRID LAYOUT */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* 🔹 Technical Skills */}
+        <h3 className="text-xl font-semibold mb-6 text-[#2EC4F1] text-center">
+          Technical Skills
+        </h3>
 
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
           {skills.map((skill, index) => (
             <div
               key={index}
@@ -43,17 +60,39 @@ const TechnicalSkills = () => {
                          hover:shadow-[0_0_20px_#2EC4F1]
                          transition duration-300"
             >
-              <h3 className="text-[#2EC4F1] text-xl font-semibold mb-3">
+              <h4 className="text-lg font-semibold mb-3">
                 {skill.category}
-              </h3>
-
-              <p className="text-[#EAF2F8] leading-relaxed">
+              </h4>
+              <p className="text-[#9FB3C8]">
                 {skill.items.join(", ")}
               </p>
             </div>
           ))}
-
         </div>
+
+        {/* 🔹 Other Skills */}
+        <h3 className="text-xl font-semibold mb-6 text-[#2EC4F1] text-center">
+          Other Skills
+        </h3>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {extraSkills.map((skill, index) => (
+            <div
+              key={index}
+              className="bg-[#102A43] rounded-xl p-6
+                         hover:shadow-[0_0_20px_#2EC4F1]
+                         transition duration-300"
+            >
+              <h4 className="text-lg font-semibold mb-3">
+                {skill.category}
+              </h4>
+              <p className="text-[#9FB3C8]">
+                {skill.items.join(", ")}
+              </p>
+            </div>
+          ))}
+        </div>
+
       </div>
     </section>
   );
