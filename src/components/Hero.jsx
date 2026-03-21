@@ -49,7 +49,7 @@ export default function Hero() {
           {/* BUTTONS */}
           <div className="flex flex-col sm:flex-row gap-4 mt-2">
             <a
-              href="/Sanchita_CV%20(4).pdf"
+              href="/Sanchita_CV%20(5).pdf"
               download
               className="px-6 py-3 rounded-lg
                          bg-[#2EC4F1] text-[#071A2C]
